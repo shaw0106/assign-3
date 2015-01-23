@@ -1,0 +1,31 @@
+html {
+  background-color:#fff;
+}
+
+h1,h2,{
+  font-weight:normal; /* normal, bold*/
+  font-size:5rem;
+  font-style:normal; /* normal, italic*/
+  /* text-decoration:underline;*/
+  font-family:'Arial';
+  color:#fff;
+  line-height: 1.5;
+}
+
+ol{
+  list-style-type: lower-alpha; /*decimal, circle, lower-roman, lower-alpha,disc, square, none*/
+  /* padding:0; */
+}
+
+p{
+  font-weight:normal; /* normal, bold*/
+  font-size:2rem;
+  font-style:italic; /* normal, italic*/
+  /* text-decoration:underline;*/
+  font-family: 'Arial';
+
+blockquote{
+  font-weight:normal;
+  font-size:2rem;
+  font-style:italics;
+}
