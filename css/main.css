@@ -2,30 +2,40 @@ html {
   background-color:#fff;
 }
 
-h1,h2,{
-  font-weight:normal; /* normal, bold*/
-  font-size:5rem;
-  font-style:normal; /* normal, italic*/
-  /* text-decoration:underline;*/
-  font-family:'Arial';
-  color:#fff;
-  line-height: 1.5;
-}
+h1,h2 {
+  font-size:2rem;
+  font-family:'Ubuntu', sans-serif;
+  line-height:1.5;
+  }
 
 ol{
-  list-style-type: lower-alpha; /*decimal, circle, lower-roman, lower-alpha,disc, square, none*/
-  /* padding:0; */
+  list-style-type: lower-roman;
 }
 
 p{
-  font-weight:normal; /* normal, bold*/
-  font-size:2rem;
-  font-style:italic; /* normal, italic*/
-  /* text-decoration:underline;*/
-  font-family: 'Arial';
+  font-weight:normal;
+  font-size:1rem;
+  font-style:normal;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a{color:blue;
+}
+
+a:hover{color:white;
+}
 
 blockquote{
-  font-weight:normal;
+  text-align: center;
+  font-weight: normal;
+  font-size: 2rem;
+  font-style: normal;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+
+}
+
+blockquote{
+  font-weight:bold;
   font-size:2rem;
-  font-style:italics;
 }
