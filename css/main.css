@@ -10,11 +10,17 @@ h1,h2 {
 
 ol{
   list-style-type: lower-roman;
+  font-size:1.5rem;
+}
+
+ul{
+  list-style-type:none;
+  font-size:1.5rem;
 }
 
 p{
   font-weight:normal;
-  font-size:1rem;
+  font-size:1.5rem;
   font-style:normal;
   font-family: 'Ubuntu', sans-serif;
 }
@@ -22,20 +28,35 @@ p{
 a{color:blue;
 }
 
-a:hover{color:white;
+a:hover{color:orange;
+}
+
+figcaption {
+  font-weight:italic;
+  font-size:.8rem;
+}
+ol{
+  font-size:1.5rem;
+  font-weight:normal;
+  font-family:'Ubuntu',sans-serif
+}
+
+blockquote div{
+  text-align:right;
+  font-size:1rem;
+  color:gray;
 }
 
 blockquote{
   text-align: center;
-  font-weight: normal;
-  font-size: 2rem;
+  font-weight: bold;
+  font-size: 1rem;
   font-style: normal;
-  font-family: Arial, sans-serif;
+  font-family: Times, serif;
   line-height: 1.5;
-
 }
 
 blockquote{
-  font-weight:bold;
+  font-weight:italic;
   font-size:2rem;
 }
